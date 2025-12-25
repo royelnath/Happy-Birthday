@@ -45,6 +45,7 @@
             box-shadow: 0 0 30px rgba(255, 77, 109, 0.3);
             max-width: 300px;
             width: 80%;
+            margin: 5%;
         }
 
         #start-btn {
@@ -212,7 +213,7 @@
             synth.speak(utter);
         }
 
-        const targetDate = new Date("December 25, 2025 06:25:00").getTime();
+        const targetDate = new Date("December 25, 2025 14:30:00").getTime();
         let lastSecondSpoken = -1;
 
         function updateCountdown() {
@@ -250,5 +251,6 @@
         updateCountdown();
     </script>
 </body>
+
 
 </html>
